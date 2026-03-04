@@ -127,7 +127,7 @@ Example entry in `predictions.json`:
 }
 
 ##Challenges
-1. Center-only annotations
+###1. Center-only annotations
 
 The dataset provides only marker center coordinates.
 This was addressed by generating bounding boxes around the center points for training.
@@ -147,4 +147,5 @@ notebook.ipynb
 predictions.json
 README.md
 weights_link.txt
+
 
