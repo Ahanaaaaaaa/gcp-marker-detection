@@ -128,19 +128,10 @@ Example entry in `predictions.json`:
 
 
 
-## Challenges
 
-### 1. Center-only annotations
-
-The dataset provides only **marker center coordinates** rather than bounding boxes.  
-Since YOLO requires bounding box annotations, this was handled by generating **fixed-size bounding boxes around each center point** during dataset preparation.
-
-### 2. Small objects
-
-GCP markers occupy a **very small region within high-resolution aerial images**.  
-To improve training efficiency and detection performance, the images were resized to **640 pixels** during training.
 
 ### 3. Class imbalance
 
 The dataset contains **significantly more Square markers than other classes**.  
 This imbalance was handled using YOLO's built-in data augmentation and training strategy.
+
