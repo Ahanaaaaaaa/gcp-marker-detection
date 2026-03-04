@@ -126,7 +126,7 @@ Example entry in `predictions.json`:
   }
 }
 
-Challenges
+##Challenges
 1. Center-only annotations
 
 The dataset provides only marker center coordinates.
@@ -141,9 +141,10 @@ Training images were resized to 640 pixels to balance accuracy and computational
 
 The dataset contains significantly more Square markers than other classes.
 
-Repository Contents:
+##Repository Contents:
 
 notebook.ipynb
 predictions.json
 README.md
 weights_link.txt
+
