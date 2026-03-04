@@ -126,6 +126,8 @@ Example entry in `predictions.json`:
   }
 }
 
+
+
 ## Challenges
 
 **1. Center-only annotations**
@@ -142,5 +144,6 @@ To improve training efficiency and detection performance, images were resized to
 
 The dataset contains **significantly more Square markers than other classes**.  
 This imbalance was handled using YOLO’s built-in data augmentation and training strategies.
+
 
 
